@@ -1,0 +1,75 @@
+body {
+    padding: 0%;
+    margin: 0;
+
+}
+
+.hero {
+    width: 100;
+    height: 100vh;
+    background-image: url('landing\ pix/my common photo.avif');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left {
+    margin-left: 6%;
+}
+
+.left h1 {
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.right p {
+    font-size: 50px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-right: 15px;
+}
+
+#icon {
+    width: 60px;
+    height: 45px;
+    cursor: pointer;
+}
