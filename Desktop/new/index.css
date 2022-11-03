@@ -1,0 +1,151 @@
+/************
+Name: Chukwu Chinecherem Lawrence;🧑‍🏫
+Assignment: ;
+Institute: ADA programme;
+Date: 3rd November,2022.
+Tutor: Miss.Ada
+D.O.S: 3rd November.2022
+T.O.S: 9:00pm...
+*****************/
+/*Step 1: I set the margin of the body to zero and padding to 12px to give me a perfect fit and also set the 
+background-color of the pages to darkolivegreen(My favorite color🙂)*/
+body {
+    margin: 0%;
+    padding: 12px;
+    background-color: darkolivegreen;
+}
+
+/*Step 2: I created div with class hero in my html document and here i colored my class to dimgray with  relative position that
+will affect all my page because this div is the first one i created with its closing tag at the end of the page.*/
+.hero {
+    background-color: dimgrey;
+    position: relative;
+
+
+}
+
+/*Step 3: This is my second div tag with class navbar here contains all my navigation links...i decided to display it in flex with 
+the content being justified in the center of the page asin the nav links.*/
+.navbar {
+    width: 88%;
+    padding: 15px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*Step 4: Still on my navbar, removed the list-style button and inline-blocked, to make it more arranged in straight form and 
+in serial blockform 
+*/
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+/*Step 5: I decided to make a splendid attempt to by creating an Css  feature that will tell on if our site is visited, active or not
+it will help us know by color changing of the links in the class navbar. 
+
+*/
+
+a:visited {
+    color: pink;
+}
+
+a:active {
+    color: yellow;
+}
+
+
+/*Step 6: I decided to decorate my navbar tag with a rgb color, thats creating my own color..(I love color mixing🔥)I also created 
+an hover that will make my link to display color orange whenever my mouse floats through it.*/
+.navbar ul li a:hover {
+    text-decoration: none;
+    color: rgb(225, 120, 010);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+/*Step 7: I created a DIV teg with an and achor tag #License..I did it to make sure that all my work is arrange and its easy for
+me to apply my CSS styling to it. I use the css proerty of border styling to make sure that everything is being put in a dashed 
+border and i pratice styling ine of the sides of the border and to my greatest surprise It worked well!!!!!!!!🔥🔥🔥🔥
+
+
+*/
+#License {
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    border-style: dashed;
+    height: 50vh;
+    width: 70vh;
+    border-right-style: inset;
+    border-right-color: coral;
+    border-right-width: 7px;
+
+}
+
+/*Step 8: I continued with my anchor styling, but now its in my h2 . i style my h2 by adding a text-align propeties and also 
+the font family property was set correctly according to the user interface browser. And in adjusted the text size by 3em of the 
+normal size of the page.
+
+*/
+#License>h2 {
+    text-align: center;
+    color: brown;
+    font-size: 34px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 10px;
+    font-size: larger;
+    font-size: large;
+    text-size-adjust: 3em;
+
+
+
+}
+
+/*Step 9: Still created a div under my anchor tag naming it pman(popsi..meaning dad🤣) I attached another border styling called 
+dotted and also text aligned it an a transformed it to uppercase..EVERYTHING IN CAPITAL LETTER FORM. */
+.pman {
+    text-align: center;
+    text-transform: uppercase;
+    border-style: dotted;
+
+}
+
+/*Step 10: This is where chocked me🤣..I nearly cried here🤣🤣🤣..But i went and rewatch the video of the classes and also do 
+some researches before i can input an emoji to my webpage..Pseudo element na your mate🤣🤣*/
+h2::after {
+    content: "🔥";
+
+}
+
+h2::before {
+    content: "🙂";
+}
+
+.Gate ul {
+    margin: auto;
+    padding: 5px;
+
+}
+
+/* I tried changing the list-style color..i tried got what i wanted from W3school but whenever i apply the ul without my .Gate class 
+it will work fine but whenever i change it to my normal class .Gate(It wont work again)*/
+.Gate ul {
+    list-style: none;
+}
+
+.Gate ul li::before {
+    content: "\20221";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/****Assignment Done and Submitted****/
