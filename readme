@@ -1,13 +1,13 @@
-Although the Steps is pre-defined using the comment command {//} but here it will be explained in dxetails
+Although the Steps is pre-defined using the comment command {//} but here it will be explained in details.
 
 Steps
 1) Creating of the parent class called AnimalKingdom; "line:5"
 
-2) Using Using The Knowledge of Abstraction to create a constructor that throw err when called directly.
+2) Using Using The Knowledge of Abstraction and polymorphism to create a constructor that throw err when called directly.
 Note I commented it out, So that it will not continue to throw error as assigned to it. "line:10-14"
 
-3)Using the Knowledge of Encapsulation to create a private property; Which can be assigned Using the mediator created in the step4.
-Note An Encapsulation includes the idea that an object's data should not be directly exposed. Since all class properties is in public; to privatize it, u introduce "#".
+3)Using the Knowledge of Encapsulation to create a private property; Which can be assigned Using a mediator created in the step4.
+Note An Encapsulation includes the idea that an object's data should not be directly exposed. Since all class properties is in public; to privatise it, u introduce "#".
 The "#" when added to a class properties privatise it immediately in Js."line:17-22".
 
 4)Still on Encapsulation; creation of the mediator that help us to grab out the properties of the hidden class;The mediator got access to the hidden through the aid of 
@@ -34,58 +34,8 @@ with the first child class because it did not inherit from it..It only acess the
 9)Created Another class called Cold_Blooded and i wanted it to inherit the class property Of The inherited AnimalsWithBackBone class.But If continues showing Error.So i Created The
 relationship using  Extends tag to inherit from our parent class AnimalKingdom(line:119-131);
 
-10)Also created a class called Warm_Blooded  and extends to our main class.
-Note:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+10)Also created a class called Warm_Blooded  and extends to our main class,That is our parent class.
+Note:You can call any property of the main class; as far as the child class inherited from the parent/main class. 
 
 
 

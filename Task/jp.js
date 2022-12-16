@@ -1,6 +1,3 @@
-
-
-
 //Creating a Parent Class
 class AnimalKingdom{
 
