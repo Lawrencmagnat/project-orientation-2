@@ -1,0 +1,94 @@
+Although the Steps is pre-defined using the comment command {//} but here it will be explained in dxetails
+
+Steps
+1) Creating of the parent class called AnimalKingdom; "line:5"
+
+2) Using Using The Knowledge of Abstraction to create a constructor that throw err when called directly.
+Note I commented it out, So that it will not continue to throw error as assigned to it. "line:10-14"
+
+3)Using the Knowledge of Encapsulation to create a private property; Which can be assigned Using the mediator created in the step4.
+Note An Encapsulation includes the idea that an object's data should not be directly exposed. Since all class properties is in public; to privatize it, u introduce "#".
+The "#" when added to a class properties privatise it immediately in Js."line:17-22".
+
+4)Still on Encapsulation; creation of the mediator that help us to grab out the properties of the hidden class;The mediator got access to the hidden through the aid of 
+the "this"(line:25-30).
+
+5)Creating a property call Cold and Endothermic_Animal which was assigned with the animal with hot $$ cold blood as our diagram said; "line:33-35"
+
+6)Using the display command to display our class property outside the class "line:39-44" 
+"Note:Since we want to be calling the properties inside the parent Class; we then use the method called 
+display(with the name of the property to be displayed and also the "This"tag).The "This" Tag aids to grab and display to be the property inside a class(line:40-44).
+
+Intanciating The parent class(line:52)
+I call to reassigning(thats reassign it to a new class name.)
+
+7)Creating the first Child class called  AnimalsWithBackBone that Inherited the property of the parent class AnimalKingdom.(line:57-95)
+Note:That the child class when consoled with the parent property can display effectively 
+because of the Inheritance relationship between the parent class and the child Class.
+
+
+8)Creating another class called AnimalWithoutBackbone and reassign it to the our main class AnimalKingdom, That will also have the access to the main parent properties and has nothing to do
+with the first child class because it did not inherit from it..It only acess the main class not the the child classes.(line:97-114);
+
+ 
+9)Created Another class called Cold_Blooded and i wanted it to inherit the class property Of The inherited AnimalsWithBackBone class.But If continues showing Error.So i Created The
+relationship using  Extends tag to inherit from our parent class AnimalKingdom(line:119-131);
+
+10)Also created a class called Warm_Blooded  and extends to our main class.
+Note:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note:Extends Creates a relationship between the Child class and the parent Class.
