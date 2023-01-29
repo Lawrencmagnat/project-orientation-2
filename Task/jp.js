@@ -22,6 +22,7 @@ class AnimalKingdom{
     showVertebrate(){
         this.#vertebrate();
     }
+    
 
     showInvertebrate(){
         this.#Invertebrate();
