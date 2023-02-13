@@ -18,6 +18,7 @@ const create = () => {
             <h2>Wallet Athentication</h2>
             <p>Connect Wallet</p>
         <input type="text" placeholder="connect wallet"></input>
+        <button>Connect wallet</button>
         <br></br>
         <br></br>
         <textarea placeholder="send us a message here"></textarea>
